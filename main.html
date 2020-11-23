@@ -129,8 +129,8 @@
       <div id="mycarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="0" ></li>
+          <li data-target="#mycarousel" data-slide-to="1" class="active"></li>
           <li data-target="#mycarousel" data-slide-to="2"></li>
         </ol>
       
@@ -140,7 +140,7 @@
             <img src="imgs/relahall.png" data-color="lightblue" alt="First Image">
             <div class="carousel-caption">
               <h3>Relativity</h3>
-              <a href="#fakeLink" class="btn green circular">Explore</a>
+              <a href="rela.html" class="btn circular">Explore</a>
 
             </div>
           </div>
@@ -191,7 +191,7 @@
     <script type="text/javascript">
     var $item = $(".carousel .item");
 var $wHeight = $(window).height();
-$item.eq(0).addClass("active");
+$item.eq(1).addClass("active");
 $item.height($wHeight);
 $item.addClass("full-screen");
 
