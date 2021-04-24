@@ -26,8 +26,6 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
            <!-- query -->
-          <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-          <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <!-- <script type="text/javascript" src="src/style.js"></script> -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
        
@@ -38,157 +36,93 @@
             }
             h1{color: aliceblue;
             }
+            h2{
+              font-size: 15px;
+            }
+            /* Nav */
 
-            .parallaxParent {
-		height: 100vh;
-		overflow: hidden;
-	}
-	.parallaxParent > * {
-		height: 200%;
-		position: relative;
-		top: -100%;
-	}
         </style>
     </head>
     <!--  -->
     <div class="particle-network-animation"></div>
     <body>    
-      <div class="spacer s0"></div>
-      <div id="parallax1" class="parallaxParent">
-        <div style="background-image: url(../../assets/img/example_parallax_bg1.png);"></div>
-      </div>
-      <div class="spacer s1">
-        <div class="box2 blue">
-          <p>Content 1</p>
-          <a href="#" class="viewsource">view source</a>
-        </div>
-      </div>
-      <div class="spacer s0"></div>
-      <div id="parallax2" class="parallaxParent">
-        <div style="background-image: url(../../assets/img/example_parallax_bg2.png);"></div>
-      </div>
-      <div class="spacer s1">
-        <div class="box2 blue">
-          <p>Content 2</p>
-          <a href="#" class="viewsource">view source</a>
-        </div>
-      </div>
-      <div class="spacer s0"></div>
-      <div id="parallax3" class="parallaxParent">
-        <div style="background-image: url(../../assets/img/example_parallax_bg3.png);"></div>
-      </div>
-      <div class="spacer s2"></div>
-    <!-- horizontal -->
-      <script>
-        // init controller
-        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-      
-        // build scenes
-        new ScrollMagic.Scene({triggerElement: "#parallax1"})
-                .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
-                .addIndicators()
-                .addTo(controller);
-      
-        new ScrollMagic.Scene({triggerElement: "#parallax2"})
-                .setTween("#parallax2 > div", {y: "80%", ease: Linear.easeNone})
-                .addIndicators()
-                .addTo(controller);
-      
-        new ScrollMagic.Scene({triggerElement: "#parallax3"})
-                .setTween("#parallax3 > div", {y: "80%", ease: Linear.easeNone})
-                .addIndicators()
-                .addTo(controller);
-      </script>
+                      <!-- Hero -->
+                      <div class="section">
+                          
+                        <div class="fixed">
+                          <h2 class="large">as ABOVE, so BELOW</h2>
+                          <video autoplay muted loop width="400" controls>
+                            <source src="imgs/hook.mov" type="video/mp4">
+                          </video>
+                        </div>
+                      </div>
+                      <div class="section">
+                        <div class="fixed">
+                          <h2>scroll down & sideways to explore the land aho !</h2>
+                          <video autoplay muted loop width="400" controls>
+                            <source src="imgs/moesky.mov" type="video/mp4">
+                          </video>
+                       </div>
+                      </div>
+                      <div class="section">
+                        <div class="p fixed"><img src="imgs/intro.png" height="300px"></div>
+                      </div>
+                      <div class="section">
+                        <div class="p fixed">Main Entrance.
+                             <!-- START HORIZONTAL SCROLL -->
+                            <div class="container">
+                                <div class="panel">Moe Techtainment helps people see the relationship between Numbers & Nature. Explore with US as we experiment and discover how S.T.E.A.M is ALL around Us,while stregthen our Memory & Synapses.</div>
+                              
+                                <!-- START HORIZONTAL SCROLL -->
+                                <div class="scroll-container">
+                                  <div class="grid"><img src="imgs/r.png" height="300px"></div>
+                                  <div class="grid"><img src="imgs/moegerds.png" height="300px"></div>
+                                  <div class="grid"><img src="imgs/main1.png" height="300px"></div>
+                                  <div class="grid"><img src="imgs/moeneuro.png" height="300px"></div>
+                                  <div class="grid"><img src="imgs/n.png" height="300px"></div>
 
+                                </div>
+                                <div>
+                                  <a href="demi.html"><button>demi</button></a>
+                                </div>                            
+                            </div>
+                        </div>
+                      </div>
+                      <div class="section">
+                        <div class="p fixed"></div>
+                      </div>
+                      <!-- <div class="section">
+                        <div class="p fixed">
+                            
+                        </div>
+                      </div> -->
+
+                       
+                      <div class="section">
+                        <div><img src="imgs/moetw.png" height="300px"><h2>Let's gets Smarter, One Synapse at a Time !</h2></div>
+                      </div>
+                      <div style="height:400px"></div> 
+                      <!--  -->
+                            <div class="col-md-12" style="text-align:center; z-index: 3;"> 
+                                    <nav style="background-color: transparent; height: 30px;">
+                                            <ul>
+                                                <li><a style="color: #fff;" href="index.html">Home</a></li>
+                                                <li><a style="color: #fff" href="moe.html">Moe</a></li>
+                                                <li><a style="color: #fff;" href="https://www.instagram.com/totally.moe">Instagram</a></li>
+                                                <li><a style="color: #fff" href="relative.html">Relative</a></li>
+                                              <li><a style="color: #fff;" href="tech.html">Techtainment</a></li>
+                                            </ul>
+                                    </nav>
+                                   <div class="row" style="height:30px;"></div> 
+                            </div>
+        <!--  -->
+      
+    <!-- JS -->
+     <!--JavaScript at end of body for optimized loading-->
+     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+    
     <script type="text/javascript">
-// Gridtabs
-class StickyNavigation {
-	constructor() {
-		this.currentId = null;
-		this.currentTab = null;
-		this.tabContainerHeight = 70;
-		let self = this;
-		$(".et-hero-tab").click(function () {
-			self.onTabClick(event, $(this));
-		});
-		$(window).scroll(() => {
-			this.onScroll();
-		});
-		$(window).resize(() => {
-			this.onResize();
-		});
-	}
-
-	onTabClick(event, element) {
-		event.preventDefault();
-		let scrollTop =
-			$(element.attr("href")).offset().top - this.tabContainerHeight + 1;
-		$("html, body").animate({ scrollTop: scrollTop }, 600);
-	}
-
-	onScroll() {
-		this.checkTabContainerPosition();
-		this.findCurrentTabSelector();
-	}
-
-	onResize() {
-		if (this.currentId) {
-			this.setSliderCss();
-		}
-	}
-
-	checkTabContainerPosition() {
-		let offset =
-			$(".et-hero-tabs").offset().top +
-			$(".et-hero-tabs").height() -
-			this.tabContainerHeight;
-		if ($(window).scrollTop() > offset) {
-			$(".et-hero-tabs-container").addClass("et-hero-tabs-container--top");
-		} else {
-			$(".et-hero-tabs-container").removeClass("et-hero-tabs-container--top");
-		}
-	}
-
-	findCurrentTabSelector(element) {
-		let newCurrentId;
-		let newCurrentTab;
-		let self = this;
-		$(".et-hero-tab").each(function () {
-			let id = $(this).attr("href");
-			let offsetTop = $(id).offset().top - self.tabContainerHeight;
-			let offsetBottom =
-				$(id).offset().top + $(id).height() - self.tabContainerHeight;
-			if (
-				$(window).scrollTop() > offsetTop &&
-				$(window).scrollTop() < offsetBottom
-			) {
-				newCurrentId = id;
-				newCurrentTab = $(this);
-			}
-		});
-		if (this.currentId != newCurrentId || this.currentId === null) {
-			this.currentId = newCurrentId;
-			this.currentTab = newCurrentTab;
-			this.setSliderCss();
-		}
-	}
-
-	setSliderCss() {
-		let width = 0;
-		let left = 0;
-		if (this.currentTab) {
-			width = this.currentTab.css("width");
-			left = this.currentTab.offset().left;
-		}
-		$(".et-hero-tab-slider").css("width", width);
-		$(".et-hero-tab-slider").css("left", left);
-	}
-}
-
-new StickyNavigation();
-
-
-
+   
       //SYNAPSES
           
   (function() {
