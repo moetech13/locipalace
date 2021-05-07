@@ -1364,12 +1364,13 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(173, 150, 16, 0.26);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(185, 132, 16, 0.479);
 					}
+					
 
 		#header nav.use-middle:after {
 			content: '';
